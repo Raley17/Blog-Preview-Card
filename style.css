@@ -6,19 +6,100 @@
 
 body {
   background-color: #f5d04e;
+  font-family: "Figtree";
 }
 
 main {
-  border: 1px solid red;
-  height: 100vh;
-
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   article {
     background-color: white;
-    width: 20em;
+    width: 24em;
+    padding: 1.5em;
+    border-radius: 1em;
 
     .first {
       position: relative;
-      padding:;
+
+      p {
+        margin-bottom: 1em;
+
+        span {
+          background-color: #f5d04e;
+          padding: 4px 12px;
+          border-radius: 4px;
+          text-align: center;
+        }
+      }
+
+      img {
+        height: 200px;
+        width: 100%;
+        border-radius: 1em;
+        margin-bottom: 1em;
+      }
+    }
+
+    .second {
+      h1 {
+        margin-bottom: 1em;
+      }
+
+      h1:hover {
+        color: #f5d04e;
+        cursor: pointer;
+      }
+      p {
+        margin-bottom: 2em;
+      }
+    }
+
+    .third {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 1em;
+      img {
+        width: 2em;
+      }
     }
   }
+}
+
+footer {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.textpreset1 {
+  font-size: 1.5em;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #111111;
+}
+.textpreset2 {
+  font-size: 1em;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.textpreset3 {
+  font-size: 0.875em;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #111111;
+}
+.textpreset4 {
+  font-size: 0.875em;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #111111;
 }
