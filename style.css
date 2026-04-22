@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5d04e;
+}
+
+main {
+  border: 1px solid red;
+  height: 100vh;
+
+  article {
+    background-color: white;
+    width: 20em;
+
+    .first {
+      position: relative;
+      padding:;
+    }
+  }
+}
